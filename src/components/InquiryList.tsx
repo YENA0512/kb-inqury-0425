@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { Badge } from './ui/Badge';
 import { Spinner } from './ui/Spinner';
-import { Download, RefreshCcw, Database, AlertCircle } from 'lucide-react';
+import { Download, RefreshCcw, AlertCircle } from 'lucide-react';
 
 interface InquiryRecord {
   id: number;
